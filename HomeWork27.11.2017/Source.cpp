@@ -33,23 +33,8 @@ start:
 		// если y равен 0, 12 / y, если x равен 0, иначе 144 / (x*y)
 		int f(int x, int y);
 		int x, y;
-		{
-			if (x == 0 && y == 0)
-
-
-			else if (x != 0 && y == 0)
-			{
-				return 12 / x;
-			}
-			else if (x == 0 && y != 0)
-			{
-				return 12 / y;
-			}
-			else
-			{
-				return 144 / (x*y);
-			}
-		}
+		
+		
 	}
 	else if (nz >= 0)
 	{
